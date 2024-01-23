@@ -30,6 +30,6 @@ RUN mkdir /etc/services.d/nginx
 ADD 90-homeassistant /etc/cont-init.d/90-homeassistant
 ADD nginx/ /etc/services.d/nginx/
 ADD nginx-config.conf /etc/nginx/http.d/default.conf
-ADD /run /run
+ADD /run/ /run/
 
 RUN chmod +x /etc/cont-init.d/90-homeassistant
