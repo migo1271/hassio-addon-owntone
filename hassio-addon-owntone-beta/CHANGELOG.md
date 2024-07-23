@@ -1,5 +1,27 @@
 # Changelog
 
+## 28.9-ls155
+
+### LinuxServer Changes:
+
+Rebase to Alpine 3.19.
+
+### owntone-server Changes:
+
+- web UI improvements:
+  - display lyrics metadata
+  - toggle Spotify on/off in some views
+  - many minor improvements
+- use compressed ALAC for Airplay for bandwidth + fixes esp32 issue
+- don't merge Spotify albums with local albums
+- handle playlist with Unicode BOM
+- json API add tracks to queue returns info on added tracks
+- replace syscall with gettid, syscall deprecated on MacOS
+- fix issue where m3u genre doesn't override despite m3u_override = true
+- fix possible crash from use-after-free
+- fix FreeBSD possible crash
+- fix crash when keys of incorrect length are used for legacy pairing
+
 ## 28.5-ls103
 
 #### LinuxServer Changes:
