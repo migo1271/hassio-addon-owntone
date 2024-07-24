@@ -22,7 +22,7 @@ sed -i -e "s/e=\"\/stream.mp3\"/e=\"stream.mp3\"/" /usr/share/owntone/htdocs/ass
 
 #chown abc:abc /var/log/owntone.log
 
-IP=$(ifconfig eth0 | grep "inet addr:" | cut -d : -f 2 | cut -d " " -f 1)
+#IP=$(ifconfig eth0 | grep "inet addr:" | cut -d : -f 2 | cut -d " " -f 1)
 
 OPTIONS_PATH=/data/options.json
 CONFIG_PATH=/etc/owntone.conf
