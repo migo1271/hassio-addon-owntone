@@ -1,7 +1,7 @@
 FROM owntone/owntone:latest
 
 # Install tini
-RUN apt-get update && apt-get install -y tini
+RUN apk add -U -q --no-cache --no-progress tini
 
 # Set tini as the init system
 ENTRYPOINT ["/usr/bin/tini", "--"]
