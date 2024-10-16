@@ -1,0 +1,20 @@
+{
+  "name": "Owntone",
+  "version": "1.0",
+  "slug": "owntone",
+  "description": "Owntone AirPlay/Spotify Server",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "services",
+  "boot": "auto",
+  "ports": {
+    "3689/tcp": 3689,
+    "5000/tcp": 5000
+  },
+  "webui": "http://[HOST]:[PORT:3689]",
+  "hassio_api": true,
+  "hassio_role": "default",
+  "homeassistant_api": false,
+  "host_network": true,
+  "options": {},
+  "schema": {}
+}
