@@ -1,5 +1,11 @@
 FROM owntone/owntone:latest
 
+# Install tini
+RUN apt-get update && apt-get install -y tini
+
+# Set tini as the init system
+ENTRYPOINT ["/usr/bin/tini", "--"]
+
 # Set working directory
 WORKDIR /data
 
