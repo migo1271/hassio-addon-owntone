@@ -1,6 +1,6 @@
 {
   "name": "Owntone",
-  "version": "1.02",
+  "version": "1.03",
   "slug": "owntone",
   "description": "Owntone AirPlay/Spotify Server",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
