@@ -1,6 +1,6 @@
 #FROM linuxserver/daapd:28.4-ls92
-#FROM linuxserver/daapd:latest
-FROM linuxserver/daapd:28.9-ls155
+FROM linuxserver/daapd:latest
+#FROM linuxserver/daapd:28.9-ls155
 #FROM rohmilkaese/owntone:28.9.0
 
 ARG BUILD_ARCH
